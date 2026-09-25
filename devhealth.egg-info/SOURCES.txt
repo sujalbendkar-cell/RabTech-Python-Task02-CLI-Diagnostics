@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+devhealth/__init__.py
+devhealth/cli.py
+devhealth/inspector.py
+devhealth/reporter.py
+devhealth/test_inspector.py
+devhealth/utils.py
+devhealth.egg-info/PKG-INFO
+devhealth.egg-info/SOURCES.txt
+devhealth.egg-info/dependency_links.txt
+devhealth.egg-info/entry_points.txt
+devhealth.egg-info/top_level.txt
+tests/test_inspector.py

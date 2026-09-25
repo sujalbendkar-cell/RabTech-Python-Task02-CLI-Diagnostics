@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devhealth"
+version = "1.0.0"
+description = "Packaged CLI Diagnostics Tool"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+devhealth = "devhealth.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
